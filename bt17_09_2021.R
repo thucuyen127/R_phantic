@@ -10,7 +10,7 @@ View(airlines)
 a = filter(flights, carrier =="AS")
 ggplot(data = a, aes(x = dep_delay , y = arr_delay))+
   geom_point()
-#Bài 2
+##Bài 2
 data("weather")
 View(weather)
 b = filter(filter(filter(weather, origin =="EWR"),month ==1),day<=15)
